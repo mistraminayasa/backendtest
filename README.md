@@ -1,6 +1,6 @@
 # README
 1. Agar aplikasi pesan antar bisa berjalan lancar, maka yang dibutuhkan adalah menyediakan data untuk ditampilkan di client/hompe page. Maka setidaknya diperlukan tiga data, yaitu data customer yand di dalamnya ada nama dan email (untuk konfirmasi), driver (ada nama dan email juga), dan order yang di dalamnya ada food, price, dan alamat. agar semua data ini bisa digunakan, bisa dengan membuat REST API.
-2. untuk keamanan perlu ada authentication saat merequest data.
+2. untuk keamanan perlu ada authentication saat merequest data. Dengan adanya authentication, maka hanya mereka yang sudah terdaftar dan diizinkan mendapat akses yang bisa menggunakannya.
 3. Menggunakan Rest Api dengan bahasa pemrogaman Ruby on Rails dan tool yang digunakan adalah postman.
 
 

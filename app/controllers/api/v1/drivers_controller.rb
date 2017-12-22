@@ -3,7 +3,7 @@ module Api
     class DriversController < ApplicationController
       def index
         drivers = Driver.order('created_at DESC');
-        render json: {status: 'SUCCESS', message:'Loaded drivers', data:driver},status: :ok
+        render json: {status: 'SUCCESS', message:'Loaded drivers', data:drivers},status: :ok
       end
 
       def show

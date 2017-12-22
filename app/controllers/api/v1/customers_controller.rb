@@ -3,7 +3,7 @@ module Api
     class CustomersController < ApplicationController
       def index
         customers = Customer.order('created_at DESC');
-        render json: {status: 'SUCCESS', message:'Loaded customers', data:customer},status: :ok
+        render json: {status: 'SUCCESS', message:'Loaded customers', data:customers},status: :ok
       end
 
       def show
