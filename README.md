@@ -7,11 +7,22 @@
 
 Untuk menjalankan aplikasi:
 
-ruby version 2.3.3
-rails version 5.1.4 ~>
-bundle install
-rake db:create
-rake db:migrate
-rake db:seed
+1. ruby version 2.3.3
+2. rails version 5.1.4 ~>
+3. bundle install
+4. rake db:create
+5. rake db:migrate
+6. rake db:seed
+7. rails s
 
+
+Untuk pengetesan di postman
+1. GET ==> http://localhost:3000/api/v1/customers atau GET ==> http://localhost:3000/api/v1/driver
+2. POST ==> http://localhost:3000/api/v1/customers/:id.
+{
+  "name":"Cantq",
+  "email": "Cantq@mail.com"
+}
+3. DELETE => http://localhost:3000/api/v1/customers/:id
+4. UPDATE => http://localhost:3000/api/v1/customers/:id
 * ...
